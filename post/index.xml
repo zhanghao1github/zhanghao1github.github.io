@@ -6,36 +6,27 @@
     <description>Recent content in Posts on zzz的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Oct 2020 21:17:27 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2020 22:17:27 +0800</lastBuildDate>
     
 	<atom:link href="https://zhanghao1github.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>My Test</title>
-      <link>https://zhanghao1github.github.io/post/my-test/</link>
-      <pubDate>Thu, 29 Oct 2020 21:17:27 +0800</pubDate>
-      
-      <guid>https://zhanghao1github.github.io/post/my-test/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://zhanghao1github.github.io/post/Git%E8%AE%BE%E7%BD%AE/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://zhanghao1github.github.io/post/Git%E8%AE%BE%E7%BD%AE/</guid>
-      <description>常用命令 1 </description>
-    </item>
-    
-    <item>
-      <title></title>
+      <title>更改火绒屏蔽软件联网权限</title>
       <link>https://zhanghao1github.github.io/post/%E6%9B%B4%E6%94%B9%E7%81%AB%E7%BB%92%E5%B1%8F%E8%94%BD%E8%BD%AF%E4%BB%B6%E8%81%94%E7%BD%91%E6%9D%83%E9%99%90/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 29 Oct 2020 22:17:27 +0800</pubDate>
       
       <guid>https://zhanghao1github.github.io/post/%E6%9B%B4%E6%94%B9%E7%81%AB%E7%BB%92%E5%B1%8F%E8%94%BD%E8%BD%AF%E4%BB%B6%E8%81%94%E7%BD%91%E6%9D%83%E9%99%90/</guid>
-      <description>更改火绒屏蔽软件联网权限  找到火绒      点菜单            </description>
+      <description>更改火绒屏蔽软件联网权限 找到火绒 点菜单</description>
+    </item>
+    
+    <item>
+      <title>My Test</title>
+      <link>https://zhanghao1github.github.io/post/Git%E8%AE%BE%E7%BD%AE/</link>
+      <pubDate>Thu, 29 Oct 2020 21:17:27 +0800</pubDate>
+      
+      <guid>https://zhanghao1github.github.io/post/Git%E8%AE%BE%E7%BD%AE/</guid>
+      <description>常用命令 1</description>
     </item>
     
   </channel>
