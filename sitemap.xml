@@ -18,6 +18,11 @@
   </url>
   
   <url>
+    <loc>https://zhanghao1github.github.io/about/</loc>
+    <lastmod>2015-03-10T00:13:27+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zhanghao1github.github.io/post/git%E8%AE%BE%E7%BD%AE/</loc>
     <priority>0</priority>
   </url>
@@ -28,6 +33,14 @@
   
   <url>
     <loc>https://zhanghao1github.github.io/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://zhanghao1github.github.io/archives/</loc>
+  </url>
+  
+  <url>
+    <loc>https://zhanghao1github.github.io/search/</loc>
   </url>
   
 </urlset>
