@@ -8,20 +8,11 @@
   </url>
   
   <url>
-    <loc>http://example.org/posts/git%E8%AE%BE%E7%BD%AE/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://example.org/categories/</loc>
   </url>
   
   <url>
     <loc>http://example.org/</loc>
-  </url>
-  
-  <url>
-    <loc>http://example.org/posts/</loc>
   </url>
   
   <url>
