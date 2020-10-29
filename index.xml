@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://example.org/git%E8%AE%BE%E7%BD%AE/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/git%E8%AE%BE%E7%BD%AE/</guid>
+      <description>常用命令
+ssh-keygen -t rsa -C &amp;quot;1828352762@qq.com&amp;quot; ssh-keygen -t rsa -C &amp;quot;1828352762@qq.com&amp;quot; id_rsa_github id_rsa.gitee git config user.name &amp;quot;learning&amp;quot; git config user.email &amp;quot;1828352762@qq.com&amp;quot; git config --global user.name &amp;quot;learning&amp;quot; git config --global user.email &amp;quot;1828352762@qq.com&amp;quot; git config user.name &amp;quot;zhanghao1github&amp;quot; git config user.email &amp;quot;1828352762@qq.com&amp;quot; git config --global user.name &amp;quot;zhanghao1github&amp;quot; git config --global user.email &amp;quot;1828352762@qq.com&amp;quot; git remote add github git@github.com:zhanghao1github/testGithubAction.git git remote add gitee git@gitee.com:liaoxuefeng/learngit.git git clone git@github.com:zhanghao1github/testGithubAction.git git clone git@github.com:zhanghao1github/testAction.git ssh-keygen -t rsa -b 4096 -C &amp;quot;$(git config user.</description>
+    </item>
+    
+  </channel>
+</rss>
