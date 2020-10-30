@@ -143,7 +143,11 @@
     <div class="post-toc-content">
         <nav id="TableOfContents">
   <ul>
-    <li><a href="#关于schedule">关于schedule</a></li>
+    <li><a href="#关于schedule">关于schedule</a>
+      <ul>
+        <li><a href="#首先在git项目下创建一个workflow">首先在git项目下创建一个workflow</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
     </div>
@@ -202,7 +206,154 @@
 │ │ │ │ │
 * * * * *
 </code></pre><p>例如我想每天早晨9：00运行，<code>0 1 * * *</code>，注意这里是<code>UTC</code>时间，换成成咱们的东八区，所以就是9：00。</p>
+<p><strong>schedule延迟4分钟左右</strong></p>
+<h3 id="首先在git项目下创建一个workflow">首先在git项目下创建一个workflow</h3>
+<p>GitHub Actions 术语。</p>
+<ol>
+<li>workflow （工作流程）：持续集成一次运行的过程，就是一个 workflow。</li>
+<li>job （任务）：一个 workflow 由一个或多个 jobs 构成，含义是一次持续集成的运行，可以完成多个任务。</li>
+<li>step（步骤）：每个 job 由多个 step 构成，一步步完成。</li>
+<li>action （动作）：每个 step 可以依次执行一个或多个命令（action）。</li>
+</ol>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">41
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">42
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">43
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">44
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">45
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">46
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">47
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">48
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">49
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">50
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">51
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">52
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">53
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">54
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">55
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">56
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">57
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">58
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">59
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">60
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">61
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">62
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">63
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">64
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">65
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">66
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#998;font-style:italic"># .github/workflow/文件名.yml</span>
+<span style="color:#998;font-style:italic"># 这是基础模板</span>
+<span style="color:#998;font-style:italic"># 这个 workflow 的名字，可以随意命名</span>
+name: Node.js CI
 
+<span style="color:#998;font-style:italic"># on触发条件</span>
+on: <span style="color:#000;font-weight:bold">[</span>push<span style="color:#000;font-weight:bold">]</span>
+<span style="color:#998;font-style:italic"># 1.push事件触发workflow</span> 
+<span style="color:#998;font-style:italic"># 2.如果多个事件（on: [push,pull]）</span>
+<span style="color:#998;font-style:italic"># 3.指定触发事件，可以限定分支、tag、指定文件路径（on.&lt;push|pull_request&gt;.&lt;tags|branches|paths&gt;）</span>
+<span style="color:#998;font-style:italic">#  在master分支push时触发</span>
+<span style="color:#998;font-style:italic">#   push：</span>
+<span style="color:#998;font-style:italic">#     branches:</span>
+<span style="color:#998;font-style:italic">#       - master</span>
+<span style="color:#998;font-style:italic">#     tags:</span>
+<span style="color:#998;font-style:italic">#       - v1.0.0 # 指定tags版本更新</span>
+<span style="color:#998;font-style:italic">#       - v1.*.*  #指tags版本为1.n.n都会更新</span>
+<span style="color:#998;font-style:italic">#    paths:</span>
+<span style="color:#998;font-style:italic">#       - &#39;**.js&#39; # 所有的js文件更新时提交触发</span>
+<span style="color:#998;font-style:italic">#       - &#39;doc/**&#39;  # doc下文件发生改动触发</span>
+<span style="color:#998;font-style:italic"># 4.忽略分支、tag、某一文件    branches-ignore、tags-ignore  、paths-ignore</span>
+<span style="color:#998;font-style:italic">#    branches-ignore:</span>
+<span style="color:#998;font-style:italic">#      - dev #当提交时分支为dev 不触发</span>
+<span style="color:#998;font-style:italic">#    tags-ignore:</span>
+<span style="color:#998;font-style:italic">#      - v2   #tag为v2时不触发</span>
+<span style="color:#998;font-style:italic"># 5. 计划的工作流在默认或基本分支上的最新提交上运行。可以运行计划的工作流程的最短间隔是每5分钟一次</span>
+<span style="color:#998;font-style:italic">#   schedule:</span>
+<span style="color:#998;font-style:italic">#      - cron:  &#39;*/5 * * * *&#39;</span> 
+<span style="color:#998;font-style:italic">#   #  * * * * * (minute (0 - 59)、hour (0 - 23)、day of the month (1 - 31)、month (1 - 12 or JAN-DEC)、day of the week (0 - 6 or SUN-SAT))</span>
+<span style="color:#998;font-style:italic">#  # *   任何值               * * * * * 每天每一分钟运行。</span>
+<span style="color:#998;font-style:italic">#  # ， 值列表分隔符      2,10 4,5 * * * 在每天的第4和5小时的第2分钟和第10分钟运行。</span>
+<span style="color:#998;font-style:italic">#  # --  取值范围              0 4-6 * * * 在第4、5和6小时的第0分钟运行。</span>
+<span style="color:#998;font-style:italic">#  # /   步长值               20/15 * * * * 从20分钟到59（每20、35和50分钟）开始，每15分钟运行一次。</span>
+
+jobs: 
+  <span style="color:#998;font-style:italic"># 所有的 job 都是并行的，但往往会有依赖关系</span>
+  <span style="color:#998;font-style:italic"># test:</span>
+  <span style="color:#998;font-style:italic"># link:</span> 
+  <span style="color:#998;font-style:italic">#   needs: test link依赖test</span>
+  <span style="color:#998;font-style:italic"># 一个名为 build 的 job</span> 
+  build:
+    <span style="color:#998;font-style:italic"># runs-on指定运行所需要的虚拟机环境，必填</span>
+    <span style="color:#998;font-style:italic"># ubuntu-latest指定Ubuntu GitHub托管的运行程序的最新版本。</span>
+    <span style="color:#998;font-style:italic"># 也可以自己定义托管环境[self-hosted, linux, ARM32]</span>
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: <span style="color:#000;font-weight:bold">[</span>8.x, 10.x, 12.x<span style="color:#000;font-weight:bold">]</span>
+
+    steps:
+    <span style="color:#998;font-style:italic"># 获取源码</span>
+      - name: Checkout
+        uses: actions/checkout@master <span style="color:#998;font-style:italic"># 获取master代码</span>
+        with:
+          persist-credentials: <span style="color:#0086b3">false</span>
+      - name: Install and Build
+        run: | <span style="color:#998;font-style:italic">#执行多个命令</span>
+          npm install
+          npm run build
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3 <span style="color:#998;font-style:italic"># 写好的action</span>
+        with:
+          ACCESS_TOKEN: <span style="color:#d14">${</span>{ secrets.DEPLOY_KEY <span style="color:#d14">}</span><span style="color:#000;font-weight:bold">}</span> <span style="color:#998;font-style:italic">#自定义生成key 生成步骤在下面</span>
+          BRANCH: gh-pages <span style="color:#998;font-style:italic">#操作应部署到的分支。</span>
+          FOLDER: dist <span style="color:#998;font-style:italic">#操作应部署的文件夹。</span>
+</code></pre></td></tr></table>
+</div>
+</div>
         </div>
 
         
