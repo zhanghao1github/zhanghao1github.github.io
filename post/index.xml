@@ -6,10 +6,19 @@
     <description>Recent content in Posts on zzz的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Oct 2020 16:20:29 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2020 23:38:06 +0800</lastBuildDate>
     
 	<atom:link href="https://zhanghao1github.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>hugo命令大全</title>
+      <link>https://zhanghao1github.github.io/post/hugo%E5%91%BD%E4%BB%A4%E5%A4%A7%E5%85%A8/</link>
+      <pubDate>Fri, 30 Oct 2020 23:38:06 +0800</pubDate>
+      
+      <guid>https://zhanghao1github.github.io/post/hugo%E5%91%BD%E4%BB%A4%E5%A4%A7%E5%85%A8/</guid>
+      <description>Hugo 安装配置文档地址： https://blog.51cto.com/michaelkang/2364007 本文环境介绍 #hugo 版本 version Hugo Static Site Generator v0.54.0 linux/amd64 BuildDate: 2019-02-22T08:11:04Z #go 版本 go version go1.11.5 linux/amd64 #系统版本 more /etc/redhat-release CentOS Linux release 7.6.1810 (Core) #版本和环境详细信息 hugo env Hugo Static Site Generator v0.54.0 linux/amd64 BuildDate: 2019-02-22T08:11:04Z GOOS=&amp;quot;linux&amp;quot; GOARCH=&amp;quot;amd64&amp;quot; GOVERSION=&amp;quot;go1.11.5&amp;quot; 初始化站点 始化一个站点目录 www.datals.com hugo new site /www.datals.com 目录结构介绍： cd /www.datals.com/ ll ▸ archetypes/ #包括内容类型，在创建新内容时自动生成内容的配置 ▸ content/ # 网站内容，全部使用mar</description>
+    </item>
     
     <item>
       <title>GithubAction</title>
@@ -44,7 +53,7 @@
       <pubDate>Thu, 29 Oct 2020 22:17:27 +0800</pubDate>
       
       <guid>https://zhanghao1github.github.io/post/%E6%9B%B4%E6%94%B9%E7%81%AB%E7%BB%92%E5%B1%8F%E8%94%BD%E8%BD%AF%E4%BB%B6%E8%81%94%E7%BD%91%E6%9D%83%E9%99%90/</guid>
-      <description>更改火绒屏蔽软件联网权限 找到火绒 点菜单 选安全设置 点系统防护后再点 联网控制 按图片中文字操作 找到相应的应用，设置即可</description>
+      <description>更改火绒屏蔽软件联网权限 1. 找到火绒 2. 点菜单 3. 选安全设置 4. 点系统防护后再点 联网控制 5. 按图片中文字操作 6. 找到相应的应用，设置即可</description>
     </item>
     
   </channel>
