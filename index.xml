@@ -6,10 +6,28 @@
     <description>Recent content on zzz的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Oct 2020 22:17:27 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2020 14:53:22 +0800</lastBuildDate>
     
 	<atom:link href="https://zhanghao1github.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo常用命令</title>
+      <link>https://zhanghao1github.github.io/post/hugo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
+      <pubDate>Fri, 30 Oct 2020 14:53:22 +0800</pubDate>
+      
+      <guid>https://zhanghao1github.github.io/post/hugo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
+      <description>使用方法: hugo hugo [flags] hugo [command] hugo [command] [flags] 查看版本 1 hugo version 版本和环境详细信息 1 hugo env 创建新站点 1 hugo new site &amp;#34;$mysite&amp;#34; 创建文章 1 2 3 4 5 6 7 8 hugo new index.md hugo new /post/hugo常用命令.md #在content/文件夹可以看到，此时多了一个markdown格式的文件index.md，打开文件可以看到时间和文件名等信息已</description>
+    </item>
+    
+    <item>
+      <title>Git常用操作命令</title>
+      <link>https://zhanghao1github.github.io/post/git%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C%E5%91%BD%E4%BB%A4/</link>
+      <pubDate>Fri, 30 Oct 2020 14:52:21 +0800</pubDate>
+      
+      <guid>https://zhanghao1github.github.io/post/git%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C%E5%91%BD%E4%BB%A4/</guid>
+      <description>Git 常用操作 git clone命令 1. git clone git@github.com:用户名/仓库名.git 1 git clone git@github.com:zhanghao1github/testTo1.git 不要clone空仓库，主分支不同，容易报错，未明白具体原因 Git 更新 1. 切换目录到.git文件夹内 1 2 3 ls cd 文件夹名（tab） #git remote -v #查看远程连接 2. git add &amp;lt;文件名&amp;gt; 1 git add . #更新全部 3.</description>
+    </item>
     
     <item>
       <title>更改火绒屏蔽软件联网权限</title>
@@ -18,15 +36,6 @@
       
       <guid>https://zhanghao1github.github.io/post/%E6%9B%B4%E6%94%B9%E7%81%AB%E7%BB%92%E5%B1%8F%E8%94%BD%E8%BD%AF%E4%BB%B6%E8%81%94%E7%BD%91%E6%9D%83%E9%99%90/</guid>
       <description>更改火绒屏蔽软件联网权限 找到火绒 点菜单</description>
-    </item>
-    
-    <item>
-      <title>git常用命令</title>
-      <link>https://zhanghao1github.github.io/post/Git%E8%AE%BE%E7%BD%AE/</link>
-      <pubDate>Thu, 29 Oct 2020 21:17:27 +0800</pubDate>
-      
-      <guid>https://zhanghao1github.github.io/post/Git%E8%AE%BE%E7%BD%AE/</guid>
-      <description>git常用命令 1</description>
     </item>
     
     <item>
