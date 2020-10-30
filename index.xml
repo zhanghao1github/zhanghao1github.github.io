@@ -6,10 +6,19 @@
     <description>Recent content on zzz的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Oct 2020 15:28:29 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2020 16:20:29 +0800</lastBuildDate>
     
 	<atom:link href="https://zhanghao1github.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>GithubAction</title>
+      <link>https://zhanghao1github.github.io/post/githubAction/</link>
+      <pubDate>Fri, 30 Oct 2020 16:20:29 +0800</pubDate>
+      
+      <guid>https://zhanghao1github.github.io/post/githubAction/</guid>
+      <description>关于schedule ┌───────────── minute (0 - 59) │ ┌───────────── hour (0 - 23) │ │ ┌───────────── day of the month (1 - 31) │ │ │ ┌───────────── month (1 - 12 or JAN-DEC) │ │ │ │ ┌───────────── day of the week (0 - 6 or SUN-SAT) │ │ │ │ │ │ │ │ │ │ │ │ │ │ │ * * * * *</description>
+    </item>
     
     <item>
       <title>关于我</title>
