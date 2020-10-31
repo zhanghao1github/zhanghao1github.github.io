@@ -26,7 +26,7 @@
       <pubDate>Fri, 30 Oct 2020 23:38:06 +0800</pubDate>
       
       <guid>https://zhanghao1github.github.io/post/hugo%E5%91%BD%E4%BB%A4%E5%A4%A7%E5%85%A8/</guid>
-      <description>Hugo 安装配置文档地址： 1 https://blog.51cto.com/michaelkang/2364007 本文环境介绍 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 #hugo 版本 version Hugo Static Site Generator v0.54.0 linux/amd64 BuildDate: 2019-02-22T08:11:04Z #go 版本 go version go1.11.5 linux/amd64 #系统版本 more /etc/redhat-release CentOS Linux release 7.6.1810 (Core) #版本和环</description>
+      <description>Hugo 安装配置文档 地址 本文环境介绍 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 #hugo 版本 version Hugo Static Site Generator v0.54.0 linux/amd64 BuildDate: 2019-02-22T08:11:04Z #go 版本 go version go1.11.5 linux/amd64 #系统版本 more /etc/redhat-release CentOS Linux release 7.6.1810 (Core) #版本和环境详细</description>
     </item>
     
     <item>
@@ -63,15 +63,6 @@
       
       <guid>https://zhanghao1github.github.io/post/%E6%9B%B4%E6%94%B9%E7%81%AB%E7%BB%92%E5%B1%8F%E8%94%BD%E8%BD%AF%E4%BB%B6%E8%81%94%E7%BD%91%E6%9D%83%E9%99%90/</guid>
       <description>更改火绒屏蔽软件联网权限 1. 找到火绒 2. 点菜单 3. 选安全设置 4. 点系统防护后再点 联网控制 5. 按图片中文字操作 6. 找到相应的应用，设置即可</description>
-    </item>
-    
-    <item>
-      <title>This is a hidden post.</title>
-      <link>https://zhanghao1github.github.io/post/hidden-post/</link>
-      <pubDate>Thu, 08 Mar 2018 17:40:19 +0800</pubDate>
-      
-      <guid>https://zhanghao1github.github.io/post/hidden-post/</guid>
-      <description>&lt;p&gt;This post is hidden from the home page.&lt;/p&gt;</description>
     </item>
     
   </channel>
