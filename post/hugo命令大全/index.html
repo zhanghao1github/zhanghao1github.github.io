@@ -13,9 +13,7 @@
 <meta name="theme-color" content="#f8f5ec" />
 <meta name="msapplication-navbutton-color" content="#f8f5ec">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
-
-
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
 <meta name="author" content="zzZ" /><meta name="description" content="Hugo 安装配置文档 地址 本文环境介绍 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 #hugo 版本 version Hugo Static Site Generator v0.54.0 linux/amd64 BuildDate: 2019-02-22T08:11:04Z #go 版本 go version go1.11.5 linux/amd64 #系统版本 more /etc/redhat-release CentOS Linux release 7.6.1810 (Core) #版本和环境详细" /><meta name="keywords" content="Hugo, theme, even" />
 
 
@@ -113,7 +111,9 @@
         <a class="menu-item-link" href="/about/">关于</a>
       </li>
   </ul>
-</nav>
+</nav><li style="display:inline-block;margin-left:120px;">
+    <input type="search" class="docsearch-input" placeholder="Search" />
+  </li>
     </header>
 
     <main id="main" class="main">
@@ -372,9 +372,9 @@ hugo server
           <a href="/tags/hugo/">hugo</a>
           </div>
       <nav class="post-nav">
-        <a class="prev" href="/post/2020-10-31-150916/">
+        <a class="prev" href="/post/coursera%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">2020 10 31 150916</span>
+            <span class="prev-text nav-default">coursera机器学习记录</span>
             <span class="prev-text nav-mobile">上一篇</span>
           </a>
         <a class="next" href="/post/githubaction/">
@@ -425,7 +425,16 @@ hugo server
       <i class="iconfont icon-up"></i>
     </div>
   </div>
-  
+  <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+    docsearch({
+    apiKey: "03a04fc8667f287368a0ebf0fc6f6ea1",
+    indexName: "hugoEven",
+    appId: "YA0JR76RP1",
+    inputSelector: '.docsearch-input',
+    debug: false,
+    });
+</script>
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>

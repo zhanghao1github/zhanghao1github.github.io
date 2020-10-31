@@ -13,9 +13,7 @@
 <meta name="theme-color" content="#f8f5ec" />
 <meta name="msapplication-navbutton-color" content="#f8f5ec">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
-
-
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
 <meta name="author" content="zzZ" /><meta name="description" content="使用方法: 1 2 3 4 hugo hugo [flags] hugo [command] hugo [command] [flags] 查看版本 1 hugo version 版本和环境详细信息 1 hugo env 创建新站点 1 hugo new site &amp;#34;$mysite&amp;#34; 创建文章 1 2 3 4 5 6 7 8 hugo new index.md hugo new /post/h" /><meta name="keywords" content="Hugo, theme, even" />
 
 
@@ -113,7 +111,9 @@
         <a class="menu-item-link" href="/about/">关于</a>
       </li>
   </ul>
-</nav>
+</nav><li style="display:inline-block;margin-left:120px;">
+    <input type="search" class="docsearch-input" placeholder="Search" />
+  </li>
     </header>
 
     <main id="main" class="main">
@@ -301,7 +301,16 @@ hugo
       <i class="iconfont icon-up"></i>
     </div>
   </div>
-  
+  <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+    docsearch({
+    apiKey: "03a04fc8667f287368a0ebf0fc6f6ea1",
+    indexName: "hugoEven",
+    appId: "YA0JR76RP1",
+    inputSelector: '.docsearch-input',
+    debug: false,
+    });
+</script>
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>

@@ -13,9 +13,7 @@
 <meta name="theme-color" content="#f8f5ec" />
 <meta name="msapplication-navbutton-color" content="#f8f5ec">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
-
-
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
 <meta name="author" content="zzZ" /><meta name="description" content="更改火绒屏蔽软件联网权限 1. 找到火绒 2. 点菜单 3. 选安全设置 4. 点系统防护后再点 联网控制 5. 按图片中文字操作 6. 找到相应的应用，设置即可" /><meta name="keywords" content="Hugo, theme, even" />
 
 
@@ -113,7 +111,9 @@
         <a class="menu-item-link" href="/about/">关于</a>
       </li>
   </ul>
-</nav>
+</nav><li style="display:inline-block;margin-left:120px;">
+    <input type="search" class="docsearch-input" placeholder="Search" />
+  </li>
     </header>
 
     <main id="main" class="main">
@@ -240,7 +240,16 @@
       <i class="iconfont icon-up"></i>
     </div>
   </div>
-  
+  <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+    docsearch({
+    apiKey: "03a04fc8667f287368a0ebf0fc6f6ea1",
+    indexName: "hugoEven",
+    appId: "YA0JR76RP1",
+    inputSelector: '.docsearch-input',
+    debug: false,
+    });
+</script>
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
