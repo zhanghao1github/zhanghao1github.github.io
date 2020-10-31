@@ -9,7 +9,7 @@
 
 ![image-20201025113415317](https://gitee.com/learn1999/image/raw/master//Typora/image-20201025113415317.png)
 
-## 3.  选安全设置
+## 3. 选安全设置
 
 ![image-20201025113556630](https://gitee.com/learn1999/image/raw/master//Typora/image-20201025113556630.png)
 

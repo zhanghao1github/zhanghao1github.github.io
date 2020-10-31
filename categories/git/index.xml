@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git on zzZ</title>
+    <link>https://zhanghao1github.github.io/categories/git/</link>
+    <description>Recent content in git on zzZ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 30 Oct 2020 16:20:29 +0800</lastBuildDate>
+    
+	<atom:link href="https://zhanghao1github.github.io/categories/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GithubAction</title>
+      <link>https://zhanghao1github.github.io/post/githubaction/</link>
+      <pubDate>Fri, 30 Oct 2020 16:20:29 +0800</pubDate>
+      
+      <guid>https://zhanghao1github.github.io/post/githubaction/</guid>
+      <description>关于 schedule 1 2 3 4 5 6 7 8 9 ┌───────────── minute (0 - 59) │ ┌───────────── hour (0 - 23) │ │ ┌───────────── day of the month (1</description>
+    </item>
+    
+    <item>
+      <title>Git常用操作命令</title>
+      <link>https://zhanghao1github.github.io/post/git%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C%E5%91%BD%E4%BB%A4/</link>
+      <pubDate>Fri, 30 Oct 2020 14:52:21 +0800</pubDate>
+      
+      <guid>https://zhanghao1github.github.io/post/git%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C%E5%91%BD%E4%BB%A4/</guid>
+      <description>Git 常用操作 1. 在 Github 上新建一个带 readme.md 的项目 2. git clone git@github.com:用户名/仓库名.git 3. 添加文件 4. git add . 5. git commit -m &amp;ldquo;说明日</description>
+    </item>
+    
+  </channel>
+</rss>

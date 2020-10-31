@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>火绒 on zzZ</title>
+    <link>https://zhanghao1github.github.io/tags/%E7%81%AB%E7%BB%92/</link>
+    <description>Recent content in 火绒 on zzZ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 29 Oct 2020 22:17:27 +0800</lastBuildDate>
+    
+	<atom:link href="https://zhanghao1github.github.io/tags/%E7%81%AB%E7%BB%92/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>更改火绒屏蔽软件联网权限</title>
+      <link>https://zhanghao1github.github.io/post/%E6%9B%B4%E6%94%B9%E7%81%AB%E7%BB%92%E5%B1%8F%E8%94%BD%E8%BD%AF%E4%BB%B6%E8%81%94%E7%BD%91%E6%9D%83%E9%99%90/</link>
+      <pubDate>Thu, 29 Oct 2020 22:17:27 +0800</pubDate>
+      
+      <guid>https://zhanghao1github.github.io/post/%E6%9B%B4%E6%94%B9%E7%81%AB%E7%BB%92%E5%B1%8F%E8%94%BD%E8%BD%AF%E4%BB%B6%E8%81%94%E7%BD%91%E6%9D%83%E9%99%90/</guid>
+      <description>更改火绒屏蔽软件联网权限 1. 找到火绒 2. 点菜单 3. 选安全设置 4. 点系统防护后再点 联网控制 5. 按图片中文字操作 6. 找到相应的应用，设置即可</description>
+    </item>
+    
+  </channel>
+</rss>

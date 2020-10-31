@@ -49,11 +49,11 @@
 <meta itemprop="description" content="使用方法: 1 2 3 4 hugo hugo [flags] hugo [command] hugo [command] [flags] 查看版本 1 hugo version 版本和环境详细信息 1 hugo env 创建新站点 1 hugo new site &#34;$mysite&#34; 创建文章 1 2 3 4 5 6 7 8 hugo new index.md hugo new /post/h">
 <meta itemprop="datePublished" content="2020-10-30T14:53:22&#43;08:00" />
 <meta itemprop="dateModified" content="2020-10-30T14:53:22&#43;08:00" />
-<meta itemprop="wordCount" content="225">
+<meta itemprop="wordCount" content="223">
 
 
 
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="hugo," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Hugo常用命令"/>
 <meta name="twitter:description" content="使用方法: 1 2 3 4 hugo hugo [flags] hugo [command] hugo [command] [flags] 查看版本 1 hugo version 版本和环境详细信息 1 hugo env 创建新站点 1 hugo new site &#34;$mysite&#34; 创建文章 1 2 3 4 5 6 7 8 hugo new index.md hugo new /post/h"/>
 
@@ -126,8 +126,10 @@
 
       <div class="post-meta">
         <span class="post-time"> 2020-10-30 </span>
-        
-          <span class="more-meta"> 约 225 字 </span>
+        <div class="post-category">
+            <a href="/categories/hugo/"> hugo </a>
+            </div>
+          <span class="more-meta"> 约 223 字 </span>
           <span class="more-meta"> 预计阅读 1 分钟 </span>
         
       </div>
@@ -143,7 +145,7 @@
     <li><a href="#版本和环境详细信息">版本和环境详细信息</a></li>
     <li><a href="#创建新站点">创建新站点</a></li>
     <li><a href="#创建文章">创建文章</a></li>
-    <li><a href="#编译生成静态文件并启动web服务">编译生成静态文件并启动web服务</a></li>
+    <li><a href="#编译生成静态文件并启动-web-服务">编译生成静态文件并启动 web 服务</a></li>
   </ul>
 </nav>
   </div>
@@ -204,17 +206,17 @@
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">hugo new index.md  
+<pre class="chroma"><code class="language-shell" data-lang="shell">hugo new index.md
 hugo new /post/hugo常用命令.md
 
 <span class="c1">#在content/文件夹可以看到，此时多了一个markdown格式的文件index.md，打开文件可以看到时间和文件名等信息已经自动加到文件开头，包括创建时间，页面名，是否为草稿等。</span>
 <span class="c1">#编译生成静态文件</span>
 hugo
 
-<span class="c1">#Hugo将编译所有文件并输出到public目录</span>     
+<span class="c1">#Hugo将编译所有文件并输出到public目录</span>
 </code></pre></td></tr></table>
 </div>
-</div><h1 id="编译生成静态文件并启动web服务">编译生成静态文件并启动web服务</h1>
+</div><h1 id="编译生成静态文件并启动-web-服务">编译生成静态文件并启动 web 服务</h1>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -242,7 +244,9 @@ hugo
   
 </div>
 <footer class="post-footer">
-      
+      <div class="post-tags">
+          <a href="/tags/hugo/">hugo</a>
+          </div>
       <nav class="post-nav">
         <a class="prev" href="/post/githubaction/">
             <i class="iconfont icon-left"></i>

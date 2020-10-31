@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on zzZ</title>
+    <link>https://zhanghao1github.github.io/tags/hugo/</link>
+    <description>Recent content in hugo on zzZ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 30 Oct 2020 23:38:06 +0800</lastBuildDate>
+    
+	<atom:link href="https://zhanghao1github.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>hugo命令大全</title>
+      <link>https://zhanghao1github.github.io/post/hugo%E5%91%BD%E4%BB%A4%E5%A4%A7%E5%85%A8/</link>
+      <pubDate>Fri, 30 Oct 2020 23:38:06 +0800</pubDate>
+      
+      <guid>https://zhanghao1github.github.io/post/hugo%E5%91%BD%E4%BB%A4%E5%A4%A7%E5%85%A8/</guid>
+      <description>Hugo 安装配置文档 地址 本文环境介绍 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 #hugo 版本 version Hugo Static Site Generator v0.54.0 linux/amd64 BuildDate: 2019-02-22T08:11:04Z #go 版本 go version go1.11.5 linux/amd64 #系统版本 more /etc/redhat-release CentOS Linux release 7.6.1810 (Core) #版本和环境详细</description>
+    </item>
+    
+    <item>
+      <title>Hugo常用命令</title>
+      <link>https://zhanghao1github.github.io/post/hugo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
+      <pubDate>Fri, 30 Oct 2020 14:53:22 +0800</pubDate>
+      
+      <guid>https://zhanghao1github.github.io/post/hugo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
+      <description>使用方法: 1 2 3 4 hugo hugo [flags] hugo [command] hugo [command] [flags] 查看版本 1 hugo version 版本和环境详细信息 1 hugo env 创建新站点 1 hugo new site &amp;#34;$mysite&amp;#34; 创建文章 1 2 3 4 5 6 7 8 hugo new index.md hugo new /post/h</description>
+    </item>
+    
+  </channel>
+</rss>
