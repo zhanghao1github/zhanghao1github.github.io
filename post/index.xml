@@ -6,13 +6,22 @@
     <description>Recent content in Posts on zzZ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Nov 2020 22:11:47 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2020 22:40:22 +0800</lastBuildDate>
     
 	<atom:link href="https://zhanghao1github.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>TortoiseGit同时使用Gitee和Github.md</title>
+      <title>2020 11 01 224022</title>
+      <link>https://zhanghao1github.github.io/post/2020-11-01-224022/</link>
+      <pubDate>Sun, 01 Nov 2020 22:40:22 +0800</pubDate>
+      
+      <guid>https://zhanghao1github.github.io/post/2020-11-01-224022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TortoiseGit同时使用Gitee和Github</title>
       <link>https://zhanghao1github.github.io/post/tortoisegit%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8gitee%E5%92%8Cgithub/</link>
       <pubDate>Sun, 01 Nov 2020 22:11:47 +0800</pubDate>
       

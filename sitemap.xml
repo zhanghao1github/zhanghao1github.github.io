@@ -9,21 +9,28 @@
   </url>
   
   <url>
-    <loc>https://zhanghao1github.github.io/post/</loc>
-    <lastmod>2020-11-01T22:11:47+08:00</lastmod>
+    <loc>https://zhanghao1github.github.io/post/2020-11-01-224022/</loc>
+    <lastmod>2020-11-01T22:40:22+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://zhanghao1github.github.io/post/tortoisegit%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8gitee%E5%92%8Cgithub/</loc>
-    <lastmod>2020-11-01T22:11:47+08:00</lastmod>
+    <loc>https://zhanghao1github.github.io/post/</loc>
+    <lastmod>2020-11-01T22:40:22+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://zhanghao1github.github.io/</loc>
+    <lastmod>2020-11-01T22:40:22+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhanghao1github.github.io/post/tortoisegit%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8gitee%E5%92%8Cgithub/</loc>
     <lastmod>2020-11-01T22:11:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -44,14 +51,14 @@
   </url>
   
   <url>
-    <loc>https://zhanghao1github.github.io/tags/hugo/</loc>
+    <loc>https://zhanghao1github.github.io/categories/hugo/</loc>
     <lastmod>2020-10-30T23:38:06+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://zhanghao1github.github.io/categories/hugo/</loc>
+    <loc>https://zhanghao1github.github.io/tags/hugo/</loc>
     <lastmod>2020-10-30T23:38:06+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
