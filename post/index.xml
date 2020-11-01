@@ -6,10 +6,19 @@
     <description>Recent content in Posts on zzZ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Oct 2020 15:09:16 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2020 22:11:47 +0800</lastBuildDate>
     
 	<atom:link href="https://zhanghao1github.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>TortoiseGit同时使用Gitee和Github.md</title>
+      <link>https://zhanghao1github.github.io/post/tortoisegit%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8gitee%E5%92%8Cgithub/</link>
+      <pubDate>Sun, 01 Nov 2020 22:11:47 +0800</pubDate>
+      
+      <guid>https://zhanghao1github.github.io/post/tortoisegit%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8gitee%E5%92%8Cgithub/</guid>
+      <description>TortoiseGit同时使用Gitee和Github 不能使用github临时解决方案 确定TortoiseGit SSH位置 添加远程链接 到此已</description>
+    </item>
     
     <item>
       <title>coursera机器学习记录</title>
