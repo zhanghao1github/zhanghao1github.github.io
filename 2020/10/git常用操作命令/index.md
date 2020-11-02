@@ -13,6 +13,8 @@
 
 ### 6. git push -u origin main
 
+<!--more-->
+
 ## git clone 命令
 
 ##### 1. git clone git@github.com:用户名/仓库名.git
