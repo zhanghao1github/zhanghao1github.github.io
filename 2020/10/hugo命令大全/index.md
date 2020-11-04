@@ -1,4 +1,6 @@
 
+<!--more-->
+
 ## Hugo 安装配置文档 [地址](https://blog.51cto.com/michaelkang/2364007)
 
 ## 本文环境介绍

@@ -1,18 +1,11 @@
 
-# Git 常用操作
-
-### 1. 在 Github 上新建一个带 readme.md 的项目
-
-### 2. git clone git@github.com:用户名/仓库名.git
-
-### 3. 添加文件
-
-### 4. git add .
-
-### 5. git commit -m "说明日志"
-
-### 6. git push -u origin main
-
+## 新建一个Git操作
+1. 在 Github 上新建一个带 readme.md 的项目
+2. git clone git@github.com:用户名/仓库名.git
+3. 添加文件
+4. git add .
+5. git commit -m "说明日志"
+6. git push -u origin main
 <!--more-->
 
 ## git clone 命令

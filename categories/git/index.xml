@@ -17,7 +17,7 @@
       <pubDate>Fri, 30 Oct 2020 16:20:29 +0800</pubDate>
       
       <guid>https://zhanghao1github.github.io/2020/10/githubaction/</guid>
-      <description>关于 schedule 1 2 3 4 5 6 7 8 9 ┌───────────── minute (0 - 59) │ ┌───────────── hour (0 - 23) │ │ ┌───────────── day of the month (1</description>
+      <description></description>
     </item>
     
     <item>
@@ -26,13 +26,15 @@
       <pubDate>Fri, 30 Oct 2020 14:52:21 +0800</pubDate>
       
       <guid>https://zhanghao1github.github.io/2020/10/git%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C%E5%91%BD%E4%BB%A4/</guid>
-      <description>&lt;h1 id=&#34;git-常用操作&#34;&gt;Git 常用操作&lt;/h1&gt;
-&lt;h3 id=&#34;1-在-github-上新建一个带-readmemd-的项目&#34;&gt;1. 在 Github 上新建一个带 readme.md 的项目&lt;/h3&gt;
-&lt;h3 id=&#34;2-git-clone-gitgithubcom用户名仓库名git&#34;&gt;2. git clone &lt;a href=&#34;mailto:git@github.com&#34;&gt;git@github.com&lt;/a&gt;:用户名/仓库名.git&lt;/h3&gt;
-&lt;h3 id=&#34;3-添加文件&#34;&gt;3. 添加文件&lt;/h3&gt;
-&lt;h3 id=&#34;4-git-add-&#34;&gt;4. git add .&lt;/h3&gt;
-&lt;h3 id=&#34;5-git-commit--m-说明日志&#34;&gt;5. git commit -m &amp;ldquo;说明日志&amp;rdquo;&lt;/h3&gt;
-&lt;h3 id=&#34;6-git-push--u-origin-main&#34;&gt;6. git push -u origin main&lt;/h3&gt;</description>
+      <description>&lt;h2 id=&#34;新建一个git操作&#34;&gt;新建一个Git操作&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;在 Github 上新建一个带 readme.md 的项目&lt;/li&gt;
+&lt;li&gt;git clone &lt;a href=&#34;mailto:git@github.com&#34;&gt;git@github.com&lt;/a&gt;:用户名/仓库名.git&lt;/li&gt;
+&lt;li&gt;添加文件&lt;/li&gt;
+&lt;li&gt;git add .&lt;/li&gt;
+&lt;li&gt;git commit -m &amp;ldquo;说明日志&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;git push -u origin main&lt;/li&gt;
+&lt;/ol&gt;</description>
     </item>
     
   </channel>
