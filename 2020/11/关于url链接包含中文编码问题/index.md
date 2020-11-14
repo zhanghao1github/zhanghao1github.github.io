@@ -7,6 +7,10 @@
 
 有的网址进行数据爬取时需要对地址栏中文进行处理,比如(汽车之家, 爱卡汽车), 有的不需要处理(如百度知道),同时网站采取的编码方式不一样,也要注意编码的格式(utf-8, gbk), 处理后的结果是不一样的
 
+[来源](https://blog.csdn.net/supramolecular/article/details/82149591)
+
+[来源](https://www.liangzl.com/get-article-detail-40507.html)
+
 ```python
 import urllib
 import urllib.request #必须写，python3的urllib不会自动导入其under层的包，需要手动导入不引用报错
@@ -18,6 +22,8 @@ print(kwd)#  %B0%C2%B5%CF
 ```
 
 # 网址链接中的中文编码
+
+[来源](https://blog.csdn.net/mouday/article/details/80278938)
 
 - 中文的gbk(GB2312)编码： 一个汉字对应两组%xx，即%xx%xx
 - 中文的UTF-8编码： 一个汉字对应三组%xx，即%xx%xx%xx
