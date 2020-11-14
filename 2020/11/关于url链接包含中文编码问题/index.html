@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>关于url链接包含中文编码问题 - zzZ</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
+<meta name="author" content="zzZ" /><meta name="description" content="" /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.64.1 with theme even" />
+
+
+<link rel="canonical" href="https://zhanghao1github.github.io/2020/11/%E5%85%B3%E4%BA%8Eurl%E9%93%BE%E6%8E%A5%E5%8C%85%E5%90%AB%E4%B8%AD%E6%96%87%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<link href="/sass/main.min.6b85ebaa5181f69ffca007917cbe971dca40b9e62b7506dbc9afb955c51bce56.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="关于url链接包含中文编码问题" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://zhanghao1github.github.io/2020/11/%E5%85%B3%E4%BA%8Eurl%E9%93%BE%E6%8E%A5%E5%8C%85%E5%90%AB%E4%B8%AD%E6%96%87%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98/" />
+<meta property="article:published_time" content="2020-11-14T15:54:55+08:00" />
+<meta property="article:modified_time" content="2020-11-14T15:54:55+08:00" />
+<meta itemprop="name" content="关于url链接包含中文编码问题">
+<meta itemprop="description" content="">
+<meta itemprop="datePublished" content="2020-11-14T15:54:55&#43;08:00" />
+<meta itemprop="dateModified" content="2020-11-14T15:54:55&#43;08:00" />
+<meta itemprop="wordCount" content="446">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="关于url链接包含中文编码问题"/>
+<meta name="twitter:description" content=""/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">zzZ</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">主页</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">归档</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">标签</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">分类</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">关于</li>
+      </a><a href="https://github.com/nusr/reading-list/">
+        <li class="mobile-menu-item">阅读清单</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">zzZ</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">主页</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">归档</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">标签</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">分类</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">关于</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="https://github.com/nusr/reading-list/">阅读清单</a>
+      </li>
+  </ul>
+</nav><li style="display:inline-block;margin-left:120px;">
+    <input type="search" class="docsearch-input" placeholder="Search" />
+  </li>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">关于url链接包含中文编码问题</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2020-11-14 </span>
+        <div class="post-category">
+            <a href="/categories/python/"> python </a>
+            </div>
+          <span class="more-meta"> 约 446 字 </span>
+          <span class="more-meta"> 预计阅读 1 分钟 </span>
+        <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次阅读 </span>
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#网址链接中的中文编码">网址链接中的中文编码</a></li>
+    <li><a href="#python3编码解码示例">python3编码解码示例</a></li>
+  </ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <blockquote>
+<p>首发 <a href="https://zhanghao1github.github.io/">https://zhanghao1github.github.io/</a></p>
+</blockquote>
+<p>有的网址进行数据爬取时需要对地址栏中文进行处理,比如(汽车之家, 爱卡汽车), 有的不需要处理(如百度知道),同时网站采取的编码方式不一样,也要注意编码的格式(utf-8, gbk), 处理后的结果是不一样的</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">urllib</span>
+<span class="kn">import</span> <span class="nn">urllib.request</span> <span class="c1">#必须写，python3的urllib不会自动导入其under层的包，需要手动导入不引用报错</span>
+<span class="n">keyword</span> <span class="o">=</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">奥迪</span><span class="s1">&#39;</span>
+<span class="n">kwd</span> <span class="o">=</span> <span class="n">urllib</span><span class="o">.</span><span class="n">parse</span><span class="o">.</span><span class="n">quote</span><span class="p">(</span><span class="n">keyword</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">utf-8</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">errors</span><span class="o">=</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">replace</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">kwd</span><span class="p">)</span><span class="c1">#  %E5%A5%A5%E8%BF%AA</span>
+<span class="n">kwd</span> <span class="o">=</span> <span class="n">urllib</span><span class="o">.</span><span class="n">parse</span><span class="o">.</span><span class="n">quote</span><span class="p">(</span><span class="n">keyword</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">gbk</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">errors</span><span class="o">=</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">replace</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">kwd</span><span class="p">)</span><span class="c1">#  %B0%C2%B5%CF</span>
+</code></pre></td></tr></table>
+</div>
+</div><h1 id="网址链接中的中文编码">网址链接中的中文编码</h1>
+<ul>
+<li>中文的gbk(GB2312)编码： 一个汉字对应两组%xx，即%xx%xx</li>
+<li>中文的UTF-8编码： 一个汉字对应三组%xx，即%xx%xx%xx</li>
+</ul>
+<p>可以利用百度进行URL编码解码 默认gbk</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD
+</code></pre></td></tr></table>
+</div>
+</div><h1 id="python3编码解码示例">python3编码解码示例</h1>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">urllib.request</span> <span class="kn">import</span> <span class="n">quote</span><span class="p">,</span> <span class="n">unquote</span>
+
+<span class="c1"># 编码</span>
+
+<span class="n">url1</span> <span class="o">=</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">https://www.baidu.com/s?wd=中国</span><span class="s2">&#34;</span>
+
+<span class="c1"># utf8编码，指定安全字符</span>
+<span class="n">ret1</span> <span class="o">=</span> <span class="n">quote</span><span class="p">(</span><span class="n">url1</span><span class="p">,</span> <span class="n">safe</span><span class="o">=</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">;/?:@&amp;=+$,</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">utf-8</span><span class="s2">&#34;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">ret1</span><span class="p">)</span>
+<span class="c1"># https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD</span>
+
+<span class="c1"># gbk编码</span>
+<span class="n">ret2</span> <span class="o">=</span> <span class="n">quote</span><span class="p">(</span><span class="n">url1</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">gbk</span><span class="s2">&#34;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">ret2</span><span class="p">)</span>
+<span class="c1"># https%3A//www.baidu.com/s%3Fwd%3D%D6%D0%B9%FA</span>
+
+
+<span class="c1"># 解码</span>
+<span class="n">url3</span> <span class="o">=</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">https://www.baidu.com/s?wd=</span><span class="si">%E</span><span class="s2">4</span><span class="s2">%</span><span class="s2">B8</span><span class="s2">%</span><span class="s2">AD</span><span class="si">%E</span><span class="s2">5</span><span class="s2">%</span><span class="s2">9B</span><span class="s2">%</span><span class="s2">BD</span><span class="s2">&#34;</span>
+
+<span class="n">ret3</span> <span class="o">=</span> <span class="n">unquote</span><span class="p">(</span><span class="n">url3</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">utf-8</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">ret3</span><span class="p">)</span>
+<span class="c1"># https://www.baidu.com/s?wd=中国</span>
+</code></pre></td></tr></table>
+</div>
+</div>
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content"><a href="https://zhanghao1github.github.io/about/" target="_blank">zzZ</a></span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+        2020-11-14
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      
+      <nav class="post-nav">
+        
+        <a class="next" href="/2020/11/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/">
+            <span class="next-text nav-default">软件推荐</span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="https://github.com/zhanghao1github?tab=repositories" class="iconfont icon-github" title="github"></a>
+  <a href="https://zhanghao1github.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  <div class="busuanzi-footer">
+    <span id="busuanzi_container_site_pv"> 本站总访问量 <span id="busuanzi_value_site_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次 </span>
+      <span class="division">|</span>
+    <span id="busuanzi_container_site_uv"> 本站总访客数 <span id="busuanzi_value_site_uv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 人 </span>
+  </div>
+
+  <span class="copyright-year">
+    &copy; 
+    2020<span class="heart"><i class="iconfont icon-heart"></i></span><span>zzZ</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+    docsearch({
+    apiKey: "03a04fc8667f287368a0ebf0fc6f6ea1",
+    indexName: "hugoEven",
+    appId: "YA0JR76RP1",
+    inputSelector: '.docsearch-input',
+    debug: false,
+    });
+</script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.c12618f9a600c40bd024996677e951e64d3487006775aeb22e200c990006c5c7.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
