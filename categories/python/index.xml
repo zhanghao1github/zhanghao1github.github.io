@@ -6,10 +6,19 @@
     <description>Recent content in python on zzZ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Nov 2020 15:54:55 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2020 16:12:40 +0800</lastBuildDate>
     
 	<atom:link href="https://zhanghao1github.github.io/categories/python/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Python获取文件夹下的所有文件路径（包括子目录下的文件路径）</title>
+      <link>https://zhanghao1github.github.io/2020/11/python%E8%8E%B7%E5%8F%96%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%8B%E7%9A%84%E6%89%80%E6%9C%89%E6%96%87%E4%BB%B6%E8%B7%AF%E5%BE%84%E5%8C%85%E6%8B%AC%E5%AD%90%E7%9B%AE%E5%BD%95%E4%B8%8B%E7%9A%84%E6%96%87%E4%BB%B6%E8%B7%AF%E5%BE%84/</link>
+      <pubDate>Sat, 14 Nov 2020 16:12:40 +0800</pubDate>
+      
+      <guid>https://zhanghao1github.github.io/2020/11/python%E8%8E%B7%E5%8F%96%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%8B%E7%9A%84%E6%89%80%E6%9C%89%E6%96%87%E4%BB%B6%E8%B7%AF%E5%BE%84%E5%8C%85%E6%8B%AC%E5%AD%90%E7%9B%AE%E5%BD%95%E4%B8%8B%E7%9A%84%E6%96%87%E4%BB%B6%E8%B7%AF%E5%BE%84/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>关于url链接包含中文编码问题</title>

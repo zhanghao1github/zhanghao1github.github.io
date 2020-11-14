@@ -3,7 +3,7 @@
 
 > 首发 [https://zhanghao1github.github.io/](https://zhanghao1github.github.io/)
 
-## 【Python】获取文件夹下的所有文件路径（包括子目录下的文件路径）
+## Python获取文件夹下的所有文件路径（包括子目录下的文件路径）
 
 ```python
 def get_all_path(open_file_path):
