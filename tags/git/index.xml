@@ -6,10 +6,22 @@
     <description>Recent content in git on zzZ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Oct 2020 16:20:29 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2020 22:11:47 +0800</lastBuildDate>
     
 	<atom:link href="https://zhanghao1github.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>TortoiseGit同时使用Gitee和Github</title>
+      <link>https://zhanghao1github.github.io/2020/11/tortoisegit%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8gitee%E5%92%8Cgithub/</link>
+      <pubDate>Sun, 01 Nov 2020 22:11:47 +0800</pubDate>
+      
+      <guid>https://zhanghao1github.github.io/2020/11/tortoisegit%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8gitee%E5%92%8Cgithub/</guid>
+      <description>&lt;h2 id=&#34;不能使用github临时解决方案&#34;&gt;不能使用github临时解决方案&lt;/h2&gt;
+&lt;p&gt;1.确定TortoiseGit   SSH位置&lt;br&gt;
+2.添加远程链接&lt;br&gt;
+3.到此已基本解决，可使用TortoiseGit 上传github了&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>GithubAction</title>
