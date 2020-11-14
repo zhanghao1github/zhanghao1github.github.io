@@ -5,7 +5,7 @@
 
 ## 1. 找到火绒
 
-![image-20201025113205846](https://gitee.com/learn1999/image/raw/master//Typora/image-20201025113205846.png)
+![测试](https://gitee.com/learn1999/image/raw/master//Typora/image-20201025113205846.png)
 
 ## 2. 点菜单
 
