@@ -6,19 +6,10 @@
     <description>Recent content in Posts on zzZ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Nov 2020 16:25:43 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2020 16:12:40 +0800</lastBuildDate>
     
 	<atom:link href="https://zhanghao1github.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>2020 11 14 162543</title>
-      <link>https://zhanghao1github.github.io/2020/11/2020-11-14-162543/</link>
-      <pubDate>Sat, 14 Nov 2020 16:25:43 +0800</pubDate>
-      
-      <guid>https://zhanghao1github.github.io/2020/11/2020-11-14-162543/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>【Python】获取文件夹下的所有文件路径（包括子目录下的文件路径）</title>
