@@ -6,10 +6,19 @@
     <description>Recent content in git on zzZ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Nov 2020 22:11:47 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2020 17:29:14 +0800</lastBuildDate>
     
 	<atom:link href="https://zhanghao1github.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>git自动更新</title>
+      <link>https://zhanghao1github.github.io/2020/11/git%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/</link>
+      <pubDate>Sat, 14 Nov 2020 17:29:14 +0800</pubDate>
+      
+      <guid>https://zhanghao1github.github.io/2020/11/git%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>TortoiseGit同时使用Gitee和Github</title>
