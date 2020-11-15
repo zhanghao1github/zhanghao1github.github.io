@@ -6,10 +6,19 @@
     <description>Recent content in Posts on zzZ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Nov 2020 17:37:14 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2020 13:45:40 +0800</lastBuildDate>
     
 	<atom:link href="https://zhanghao1github.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>油猴脚本</title>
+      <link>https://zhanghao1github.github.io/2020/11/%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC/</link>
+      <pubDate>Sun, 15 Nov 2020 13:45:40 +0800</pubDate>
+      
+      <guid>https://zhanghao1github.github.io/2020/11/%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>test</title>
@@ -35,15 +44,6 @@
       <pubDate>Sat, 14 Nov 2020 17:29:14 +0800</pubDate>
       
       <guid>https://zhanghao1github.github.io/2020/11/git%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>coursera机器学习记录第7周</title>
-      <link>https://zhanghao1github.github.io/2020/11/coursera%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%E7%AC%AC7%E5%91%A8/</link>
-      <pubDate>Sat, 14 Nov 2020 16:35:31 +0800</pubDate>
-      
-      <guid>https://zhanghao1github.github.io/2020/11/coursera%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%E7%AC%AC7%E5%91%A8/</guid>
       <description></description>
     </item>
     
