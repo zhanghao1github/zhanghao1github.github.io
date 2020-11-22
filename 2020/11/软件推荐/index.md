@@ -3,7 +3,7 @@
 
 > 首发 [https://zhanghao1github.github.io/](https://zhanghao1github.github.io/)
 
-### 必备软件
+## 必备软件
 
 
 1. [火绒](https://www.huorong.cn/person5.html)  电脑杀毒软件（可控制应用联网权限，可拦截广告窗口）
@@ -18,7 +18,7 @@
 10. [Rainmeter](https://www.rainmeter.net/) 桌面小部件，需要下载主题
 11. 
 
-### 磁盘整理
+## 磁盘整理
 
 1. [TreeSize](https://www.jam-software.com/treesize_free/comparison.shtml)
 ![treeSizeFree.png](https://gitee.com/learn1999/image/raw/master/hugo/SoftwareRecommendation/treeSizeFree.png)
@@ -51,21 +51,21 @@ http://download.aida64.com/aida64business625.exe
 http://download.aida64.com/aida64engineer625.exe
 http://download.aida64.com/aida64engineer625.zip
 
-business :
+business :  
 UJAX1-ZFWD6-9HD9B-NDMEY-N6IU1  
 FPKQ1-RURD6-XYDN1-3D2JY-J2XFK  
 1XLAU-LYXD6-R6D97-UD57Y-5GR4E  
 UUWL1-53UD6-QUDN4-8DMAY-9ZWDR  
 YHL13-P11D6-HIDND-8DSAY-SAULU  
 
-engineer:
+engineer:  
 1Y2UU-MY9D6-5WD9K-CD5GY-5I5Q1   
 12NHR-WD8D6-RDD9Z-SDAKY-AW35G   
 F72VY-HFWDB-RGDT7-RD2AY-TFE92  
 RXPF4-CUZD6-1QD9M-GDMDY-9I1YN   
 RF6MD-AF6D6-GPD9N-IDPMY-9CGZQ   
 
-extreme: 
+extreme:   
 FJX6Y-R3KD6-UFD9V-GDVDY-5HDYK  
 3Z5HY-RU1DB-32DTE-FDPNY-94759  
 3W6L1-B3SD6-17D9M-FD2EY-TR418  
