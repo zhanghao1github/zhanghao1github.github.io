@@ -6,11 +6,11 @@
 ## 必备软件
 
 
-1. [火绒](https://www.huorong.cn/person5.html)  电脑杀毒软件（可控制应用联网权限，可拦截广告窗口）
-2. [chrome浏览器](https://www.google.cn/chrome/) 默认安装在C盘，需安装适量插件
-3. [VScode](https://code.visualstudio.com/) 需要安装很多插件
-4. [Typora](https://typora.io/)  用来写MarkDown的
-5. [Notepad++](https://notepad-plus-plus.org/downloads/) 记事本
+1. ### [火绒](https://www.huorong.cn/person5.html)  电脑杀毒软件（可控制应用联网权限，可拦截广告窗口）
+2. ### [chrome浏览器](https://www.google.cn/chrome/) 默认安装在C盘，需安装适量插件
+3. ### [VScode](https://code.visualstudio.com/) 需要安装很多插件
+4. ### [Typora](https://typora.io/)  用来写MarkDown的
+5. ### [Notepad++](https://notepad-plus-plus.org/downloads/) 记事本
 6. [WPS](https://www.wps.cn/) 类似于office，优点在于云同步快
 7. [Geek](https://geekuninstaller.com/download) 卸载软件的软件
 8. [everything](https://www.voidtools.com/zh-cn/downloads/) 快速搜索文件
