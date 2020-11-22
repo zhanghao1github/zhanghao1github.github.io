@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>win10 on zzZ</title>
+    <link>https://zhanghao1github.github.io/categories/win10/</link>
+    <description>Recent content in win10 on zzZ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 21 Nov 2020 19:10:29 +0800</lastBuildDate><atom:link href="https://zhanghao1github.github.io/categories/win10/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>快捷键整理</title>
+      <link>https://zhanghao1github.github.io/2020/11/%E5%BF%AB%E6%8D%B7%E9%94%AE%E6%95%B4%E7%90%86/</link>
+      <pubDate>Sat, 21 Nov 2020 19:10:29 +0800</pubDate>
+      
+      <guid>https://zhanghao1github.github.io/2020/11/%E5%BF%AB%E6%8D%B7%E9%94%AE%E6%95%B4%E7%90%86/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>新电脑验机</title>
+      <link>https://zhanghao1github.github.io/2020/11/%E6%96%B0%E7%94%B5%E8%84%91%E9%AA%8C%E6%9C%BA/</link>
+      <pubDate>Fri, 20 Nov 2020 21:14:57 +0800</pubDate>
+      
+      <guid>https://zhanghao1github.github.io/2020/11/%E6%96%B0%E7%94%B5%E8%84%91%E9%AA%8C%E6%9C%BA/</guid>
+      <description>&lt;p&gt;不要联网&lt;br&gt;
+多拍照（录视频）&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>软件推荐</title>
+      <link>https://zhanghao1github.github.io/2020/11/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</link>
+      <pubDate>Sat, 14 Nov 2020 10:14:39 +0800</pubDate>
+      
+      <guid>https://zhanghao1github.github.io/2020/11/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>新硬盘指南</title>
+      <link>https://zhanghao1github.github.io/2020/11/%E6%96%B0%E7%A1%AC%E7%9B%98%E6%8C%87%E5%8D%97/</link>
+      <pubDate>Thu, 12 Nov 2020 21:22:11 +0800</pubDate>
+      
+      <guid>https://zhanghao1github.github.io/2020/11/%E6%96%B0%E7%A1%AC%E7%9B%98%E6%8C%87%E5%8D%97/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>更新微星主板BIOS</title>
+      <link>https://zhanghao1github.github.io/2020/11/%E6%9B%B4%E6%96%B0%E5%BE%AE%E6%98%9F%E4%B8%BB%E6%9D%BFbios/</link>
+      <pubDate>Thu, 12 Nov 2020 21:21:01 +0800</pubDate>
+      
+      <guid>https://zhanghao1github.github.io/2020/11/%E6%9B%B4%E6%96%B0%E5%BE%AE%E6%98%9F%E4%B8%BB%E6%9D%BFbios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>更改火绒屏蔽软件联网权限</title>
+      <link>https://zhanghao1github.github.io/2020/10/%E6%9B%B4%E6%94%B9%E7%81%AB%E7%BB%92%E5%B1%8F%E8%94%BD%E8%BD%AF%E4%BB%B6%E8%81%94%E7%BD%91%E6%9D%83%E9%99%90/</link>
+      <pubDate>Thu, 29 Oct 2020 22:17:27 +0800</pubDate>
+      
+      <guid>https://zhanghao1github.github.io/2020/10/%E6%9B%B4%E6%94%B9%E7%81%AB%E7%BB%92%E5%B1%8F%E8%94%BD%E8%BD%AF%E4%BB%B6%E8%81%94%E7%BD%91%E6%9D%83%E9%99%90/</guid>
+      <description>&lt;p&gt;火绒可以控制应用的联网权限&lt;br&gt;
+当一个应用联网时，会出现连网请求，对于那种已经默认的，可使用本方法修改&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

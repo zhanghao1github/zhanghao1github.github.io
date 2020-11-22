@@ -5,18 +5,45 @@
 
 ## 必备软件
 
+### 火绒
 
-1. ### [火绒](https://www.huorong.cn/person5.html)  电脑杀毒软件（可控制应用联网权限，可拦截广告窗口）
-2. ### [chrome浏览器](https://www.google.cn/chrome/) 默认安装在C盘，需安装适量插件
-3. ### [VScode](https://code.visualstudio.com/) 需要安装很多插件
-4. ### [Typora](https://typora.io/)  用来写MarkDown的
-5. ### [Notepad++](https://notepad-plus-plus.org/downloads/) 记事本
-6. [WPS](https://www.wps.cn/) 类似于office，优点在于云同步快
-7. [Geek](https://geekuninstaller.com/download) 卸载软件的软件
-8. [everything](https://www.voidtools.com/zh-cn/downloads/) 快速搜索文件
-9. [lively wallpaper](https://github.com/rocksdanister/lively/releases) 动态壁纸
-10. [Rainmeter](https://www.rainmeter.net/) 桌面小部件，需要下载主题
-11. 
+[官网下载](https://www.huorong.cn/person5.html)  电脑杀毒软件（可控制应用联网权限，可拦截广告窗口）
+
+### chrome浏览器
+
+[官网下载](https://www.google.cn/chrome/) 默认安装在C盘，需安装适量插件
+
+### VScode
+[官网下载](https://code.visualstudio.com/) 需要安装很多插件
+
+### Typora
+
+[官网下载](https://typora.io/)  用来写MarkDown的
+
+### Notepad++
+
+[官网下载](https://notepad-plus-plus.org/downloads/) 记事本
+
+### WPS
+
+[官网下载](https://www.wps.cn/) 类似于office，优点在于云同步快
+
+### Geek
+
+[官网下载](https://geekuninstaller.com/download) 卸载软件的软件
+
+### everything
+
+[官网下载](https://www.voidtools.com/zh-cn/downloads/) 快速搜索文件
+
+### lively wallpaper
+
+[官网下载](https://github.com/rocksdanister/lively/releases) 动态壁纸
+
+### Rainmeter
+
+[官网下载](https://www.rainmeter.net/) 桌面小部件，需要下载主题
+
 
 ## 磁盘整理
 
