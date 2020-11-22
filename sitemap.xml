@@ -10,27 +10,83 @@
   
   <url>
     <loc>https://zhanghao1github.github.io/categories/</loc>
-    <lastmod>2020-11-15T13:45:40+08:00</lastmod>
+    <lastmod>2020-11-21T19:10:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://zhanghao1github.github.io/post/</loc>
-    <lastmod>2020-11-15T13:45:40+08:00</lastmod>
+    <lastmod>2020-11-21T19:10:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://zhanghao1github.github.io/tags/</loc>
-    <lastmod>2020-11-15T13:45:40+08:00</lastmod>
+    <lastmod>2020-11-21T19:10:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://zhanghao1github.github.io/</loc>
+    <lastmod>2020-11-21T19:10:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhanghao1github.github.io/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
+    <lastmod>2020-11-21T19:10:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhanghao1github.github.io/categories/%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
+    <lastmod>2020-11-21T19:10:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhanghao1github.github.io/2020/11/%E5%BF%AB%E6%8D%B7%E9%94%AE%E6%95%B4%E7%90%86/</loc>
+    <lastmod>2020-11-21T19:10:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhanghao1github.github.io/tags/python/</loc>
+    <lastmod>2020-11-21T11:48:01+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhanghao1github.github.io/categories/python/</loc>
+    <lastmod>2020-11-21T11:48:01+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhanghao1github.github.io/2020/11/python%E4%BB%A3%E7%A0%81%E5%8A%A0%E5%AF%86/</loc>
+    <lastmod>2020-11-21T11:48:01+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhanghao1github.github.io/2020/11/%E6%96%B0%E7%94%B5%E8%84%91%E9%AA%8C%E6%9C%BA/</loc>
+    <lastmod>2020-11-20T21:14:57+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhanghao1github.github.io/tags/%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC/</loc>
     <lastmod>2020-11-15T13:45:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -38,13 +94,6 @@
   
   <url>
     <loc>https://zhanghao1github.github.io/categories/%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC/</loc>
-    <lastmod>2020-11-15T13:45:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhanghao1github.github.io/tags/%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC/</loc>
     <lastmod>2020-11-15T13:45:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -107,20 +156,6 @@
   </url>
   
   <url>
-    <loc>https://zhanghao1github.github.io/tags/python/</loc>
-    <lastmod>2020-11-14T16:12:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhanghao1github.github.io/categories/python/</loc>
-    <lastmod>2020-11-14T16:12:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://zhanghao1github.github.io/2020/11/python%E8%8E%B7%E5%8F%96%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%8B%E7%9A%84%E6%89%80%E6%9C%89%E6%96%87%E4%BB%B6%E8%B7%AF%E5%BE%84%E5%8C%85%E6%8B%AC%E5%AD%90%E7%9B%AE%E5%BD%95%E4%B8%8B%E7%9A%84%E6%96%87%E4%BB%B6%E8%B7%AF%E5%BE%84/</loc>
     <lastmod>2020-11-14T16:12:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -177,14 +212,14 @@
   </url>
   
   <url>
-    <loc>https://zhanghao1github.github.io/categories/hugo/</loc>
+    <loc>https://zhanghao1github.github.io/tags/hugo/</loc>
     <lastmod>2020-10-30T23:38:06+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://zhanghao1github.github.io/tags/hugo/</loc>
+    <loc>https://zhanghao1github.github.io/categories/hugo/</loc>
     <lastmod>2020-10-30T23:38:06+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

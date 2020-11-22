@@ -21,7 +21,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.64.1 with theme even" />
+<meta name="generator" content="Hugo 0.78.2 with theme even" />
 
 
 <link rel="canonical" href="https://zhanghao1github.github.io/2020/11/%E5%85%B3%E4%BA%8Eurl%E9%93%BE%E6%8E%A5%E5%8C%85%E5%90%AB%E4%B8%AD%E6%96%87%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98/" />
@@ -33,7 +33,7 @@
 
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
-<link href="/sass/main.min.6b85ebaa5181f69ffca007917cbe971dca40b9e62b7506dbc9afb955c51bce56.css" rel="stylesheet">
+<link href="/sass/main.min.c7bc1becf36bcf6a9ebd25d2947e43a2eb745ddb0c9a32b43126fd7fa460c351.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
@@ -45,13 +45,14 @@
 <meta property="article:modified_time" content="2020-11-14T15:54:55+08:00" />
 <meta itemprop="name" content="关于url链接包含中文编码问题">
 <meta itemprop="description" content="">
-<meta itemprop="datePublished" content="2020-11-14T15:54:55&#43;08:00" />
-<meta itemprop="dateModified" content="2020-11-14T15:54:55&#43;08:00" />
+<meta itemprop="datePublished" content="2020-11-14T15:54:55+08:00" />
+<meta itemprop="dateModified" content="2020-11-14T15:54:55+08:00" />
 <meta itemprop="wordCount" content="452">
 
 
 
-<meta itemprop="keywords" content="python," /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="python," />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="关于url链接包含中文编码问题"/>
 <meta name="twitter:description" content=""/>
 
@@ -170,10 +171,10 @@
 <td class="lntd">
 <pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">urllib</span>
 <span class="kn">import</span> <span class="nn">urllib.request</span> <span class="c1">#必须写，python3的urllib不会自动导入其under层的包，需要手动导入不引用报错</span>
-<span class="n">keyword</span> <span class="o">=</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">奥迪</span><span class="s1">&#39;</span>
-<span class="n">kwd</span> <span class="o">=</span> <span class="n">urllib</span><span class="o">.</span><span class="n">parse</span><span class="o">.</span><span class="n">quote</span><span class="p">(</span><span class="n">keyword</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">utf-8</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">errors</span><span class="o">=</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">replace</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="n">keyword</span> <span class="o">=</span> <span class="s1">&#39;奥迪&#39;</span>
+<span class="n">kwd</span> <span class="o">=</span> <span class="n">urllib</span><span class="o">.</span><span class="n">parse</span><span class="o">.</span><span class="n">quote</span><span class="p">(</span><span class="n">keyword</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">,</span> <span class="n">errors</span><span class="o">=</span><span class="s1">&#39;replace&#39;</span><span class="p">)</span>
 <span class="k">print</span><span class="p">(</span><span class="n">kwd</span><span class="p">)</span><span class="c1">#  %E5%A5%A5%E8%BF%AA</span>
-<span class="n">kwd</span> <span class="o">=</span> <span class="n">urllib</span><span class="o">.</span><span class="n">parse</span><span class="o">.</span><span class="n">quote</span><span class="p">(</span><span class="n">keyword</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">gbk</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">errors</span><span class="o">=</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">replace</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="n">kwd</span> <span class="o">=</span> <span class="n">urllib</span><span class="o">.</span><span class="n">parse</span><span class="o">.</span><span class="n">quote</span><span class="p">(</span><span class="n">keyword</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;gbk&#39;</span><span class="p">,</span> <span class="n">errors</span><span class="o">=</span><span class="s1">&#39;replace&#39;</span><span class="p">)</span>
 <span class="k">print</span><span class="p">(</span><span class="n">kwd</span><span class="p">)</span><span class="c1">#  %B0%C2%B5%CF</span>
 </code></pre></td></tr></table>
 </div>
@@ -224,23 +225,23 @@
 
 <span class="c1"># 编码</span>
 
-<span class="n">url1</span> <span class="o">=</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">https://www.baidu.com/s?wd=中国</span><span class="s2">&#34;</span>
+<span class="n">url1</span> <span class="o">=</span> <span class="s2">&#34;https://www.baidu.com/s?wd=中国&#34;</span>
 
 <span class="c1"># utf8编码，指定安全字符</span>
-<span class="n">ret1</span> <span class="o">=</span> <span class="n">quote</span><span class="p">(</span><span class="n">url1</span><span class="p">,</span> <span class="n">safe</span><span class="o">=</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">;/?:@&amp;=+$,</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">utf-8</span><span class="s2">&#34;</span><span class="p">)</span>
+<span class="n">ret1</span> <span class="o">=</span> <span class="n">quote</span><span class="p">(</span><span class="n">url1</span><span class="p">,</span> <span class="n">safe</span><span class="o">=</span><span class="s2">&#34;;/?:@&amp;=+$,&#34;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&#34;utf-8&#34;</span><span class="p">)</span>
 <span class="k">print</span><span class="p">(</span><span class="n">ret1</span><span class="p">)</span>
 <span class="c1"># https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD</span>
 
 <span class="c1"># gbk编码</span>
-<span class="n">ret2</span> <span class="o">=</span> <span class="n">quote</span><span class="p">(</span><span class="n">url1</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">gbk</span><span class="s2">&#34;</span><span class="p">)</span>
+<span class="n">ret2</span> <span class="o">=</span> <span class="n">quote</span><span class="p">(</span><span class="n">url1</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&#34;gbk&#34;</span><span class="p">)</span>
 <span class="k">print</span><span class="p">(</span><span class="n">ret2</span><span class="p">)</span>
 <span class="c1"># https%3A//www.baidu.com/s%3Fwd%3D%D6%D0%B9%FA</span>
 
 
 <span class="c1"># 解码</span>
-<span class="n">url3</span> <span class="o">=</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">https://www.baidu.com/s?wd=</span><span class="si">%E</span><span class="s2">4</span><span class="s2">%</span><span class="s2">B8</span><span class="s2">%</span><span class="s2">AD</span><span class="si">%E</span><span class="s2">5</span><span class="s2">%</span><span class="s2">9B</span><span class="s2">%</span><span class="s2">BD</span><span class="s2">&#34;</span>
+<span class="n">url3</span> <span class="o">=</span> <span class="s2">&#34;https://www.baidu.com/s?wd=</span><span class="si">%E</span><span class="s2">4%B8%AD</span><span class="si">%E</span><span class="s2">5%9B%BD&#34;</span>
 
-<span class="n">ret3</span> <span class="o">=</span> <span class="n">unquote</span><span class="p">(</span><span class="n">url3</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">utf-8</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="n">ret3</span> <span class="o">=</span> <span class="n">unquote</span><span class="p">(</span><span class="n">url3</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span>
 <span class="k">print</span><span class="p">(</span><span class="n">ret3</span><span class="p">)</span>
 <span class="c1"># https://www.baidu.com/s?wd=中国</span>
 </code></pre></td></tr></table>

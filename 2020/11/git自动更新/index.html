@@ -21,7 +21,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.64.1 with theme even" />
+<meta name="generator" content="Hugo 0.78.2 with theme even" />
 
 
 <link rel="canonical" href="https://zhanghao1github.github.io/2020/11/git%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/" />
@@ -33,7 +33,7 @@
 
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
-<link href="/sass/main.min.6b85ebaa5181f69ffca007917cbe971dca40b9e62b7506dbc9afb955c51bce56.css" rel="stylesheet">
+<link href="/sass/main.min.c7bc1becf36bcf6a9ebd25d2947e43a2eb745ddb0c9a32b43126fd7fa460c351.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
@@ -45,13 +45,14 @@
 <meta property="article:modified_time" content="2020-11-14T17:29:14+08:00" />
 <meta itemprop="name" content="git自动更新">
 <meta itemprop="description" content="">
-<meta itemprop="datePublished" content="2020-11-14T17:29:14&#43;08:00" />
-<meta itemprop="dateModified" content="2020-11-14T17:29:14&#43;08:00" />
+<meta itemprop="datePublished" content="2020-11-14T17:29:14+08:00" />
+<meta itemprop="dateModified" content="2020-11-14T17:29:14+08:00" />
 <meta itemprop="wordCount" content="176">
 
 
 
-<meta itemprop="keywords" content="git," /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="git," />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="git自动更新"/>
 <meta name="twitter:description" content=""/>
 
@@ -207,45 +208,45 @@
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-python" data-lang="python"><span class="k">class</span> <span class="nc">Git</span><span class="p">:</span>
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">filePath</span><span class="o">=</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">./</span><span class="s1">&#39;</span><span class="p">)</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">filePath</span><span class="o">=</span><span class="s1">&#39;./&#39;</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">filePath</span> <span class="o">=</span> <span class="n">filePath</span>
 
-    <span class="k">def</span> <span class="nf">runCmd</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">cmd</span><span class="p">)</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">runCmd</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">cmd</span><span class="p">):</span>
         <span class="n">SECONDS_TIMEOUT</span> <span class="o">=</span> <span class="mi">10000</span>
         <span class="n">p</span> <span class="o">=</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">Popen</span><span class="p">(</span>
             <span class="n">cmd</span><span class="p">,</span> <span class="n">shell</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">stdout</span><span class="o">=</span><span class="n">subprocess</span><span class="o">.</span><span class="n">PIPE</span><span class="p">,</span> <span class="n">stderr</span><span class="o">=</span><span class="n">subprocess</span><span class="o">.</span><span class="n">PIPE</span><span class="p">)</span>
         <span class="k">try</span><span class="p">:</span>
             <span class="n">p</span><span class="o">.</span><span class="n">wait</span><span class="p">(</span><span class="n">timeout</span><span class="o">=</span><span class="n">SECONDS_TIMEOUT</span><span class="p">)</span>
         <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
-            <span class="n">p</span><span class="o">.</span><span class="n">kill</span><span class="p">(</span><span class="p">)</span>
-            <span class="k">print</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">===== process timeout ======</span><span class="s2">&#34;</span><span class="p">)</span>
+            <span class="n">p</span><span class="o">.</span><span class="n">kill</span><span class="p">()</span>
+            <span class="k">print</span><span class="p">(</span><span class="s2">&#34;===== process timeout ======&#34;</span><span class="p">)</span>
             <span class="k">print</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
-            <span class="k">print</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">===== process timeout ======</span><span class="s2">&#34;</span><span class="p">)</span>
+            <span class="k">print</span><span class="p">(</span><span class="s2">&#34;===== process timeout ======&#34;</span><span class="p">)</span>
             <span class="k">return</span> <span class="bp">None</span>
-        <span class="n">result</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">communicate</span><span class="p">(</span><span class="p">)</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">communicate</span><span class="p">()</span>
         <span class="k">try</span><span class="p">:</span>
-            <span class="n">res</span> <span class="o">=</span> <span class="n">result</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="n">encoding</span><span class="o">=</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">gbk</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">errors</span><span class="o">=</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">strict</span><span class="s1">&#39;</span><span class="p">)</span>
+            <span class="n">res</span> <span class="o">=</span> <span class="n">result</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;gbk&#39;</span><span class="p">,</span> <span class="n">errors</span><span class="o">=</span><span class="s1">&#39;strict&#39;</span><span class="p">)</span>
         <span class="k">except</span><span class="p">:</span>
             <span class="k">try</span><span class="p">:</span>
-                <span class="n">res</span> <span class="o">=</span> <span class="n">result</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="n">encoding</span><span class="o">=</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">utf-8</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">errors</span><span class="o">=</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">strict</span><span class="s1">&#39;</span><span class="p">)</span>
+                <span class="n">res</span> <span class="o">=</span> <span class="n">result</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">,</span> <span class="n">errors</span><span class="o">=</span><span class="s1">&#39;strict&#39;</span><span class="p">)</span>
             <span class="k">except</span><span class="p">:</span>
                 <span class="n">res</span> <span class="o">=</span> <span class="n">result</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
         <span class="k">print</span><span class="p">(</span><span class="n">res</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">res</span>
 
-    <span class="k">def</span> <span class="nf">getBranchFromFileConfig</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span><span class="p">:</span>
-        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">.git/config</span><span class="s1">&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fp</span><span class="p">:</span>
-            <span class="n">content</span> <span class="o">=</span> <span class="n">fp</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="p">)</span>
-            <span class="k">return</span> <span class="n">content</span><span class="p">[</span><span class="n">content</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">[branch </span><span class="s1">&#34;</span><span class="s1">&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="mi">9</span><span class="p">:</span><span class="n">content</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">&#34;</span><span class="s1">]</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">content</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">[branch </span><span class="s1">&#34;</span><span class="s1">&#39;</span><span class="p">)</span><span class="p">)</span><span class="p">]</span>
+    <span class="k">def</span> <span class="nf">getBranchFromFileConfig</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;.git/config&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fp</span><span class="p">:</span>
+            <span class="n">content</span> <span class="o">=</span> <span class="n">fp</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+            <span class="k">return</span> <span class="n">content</span><span class="p">[</span><span class="n">content</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s1">&#39;[branch &#34;&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="mi">9</span><span class="p">:</span><span class="n">content</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;&#34;]&#39;</span><span class="p">,</span> <span class="n">content</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s1">&#39;[branch &#34;&#39;</span><span class="p">))]</span>
 
-    <span class="k">def</span> <span class="nf">update</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span><span class="p">:</span>
-        <span class="n">text</span> <span class="o">=</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">python自动更新</span><span class="s2">&#34;</span> <span class="o">+</span> \
-            <span class="nb">str</span><span class="p">(</span><span class="n">time</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">%</span><span class="s2">Y-</span><span class="s2">%</span><span class="s2">m-</span><span class="si">%d</span><span class="s2">-</span><span class="s2">%</span><span class="s2">H:</span><span class="s2">%</span><span class="s2">M:</span><span class="s2">%</span><span class="s2">S</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">time</span><span class="o">.</span><span class="n">localtime</span><span class="p">(</span><span class="p">)</span><span class="p">)</span><span class="p">)</span>
-        <span class="n">branch</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">getBranchFromFileConfig</span><span class="p">(</span><span class="p">)</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">runCmd</span><span class="p">(</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">git add .</span><span class="s1">&#39;</span><span class="p">)</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">runCmd</span><span class="p">(</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">git commit -m </span><span class="s1">&#39;</span><span class="o">+</span><span class="n">text</span><span class="p">)</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">runCmd</span><span class="p">(</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">git pull --rebase origin </span><span class="s1">&#39;</span><span class="o">+</span><span class="n">branch</span><span class="p">)</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">runCmd</span><span class="p">(</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">git push origin </span><span class="s1">&#39;</span><span class="o">+</span><span class="n">branch</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">update</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">text</span> <span class="o">=</span> <span class="s2">&#34;python自动更新&#34;</span> <span class="o">+</span> \
+            <span class="nb">str</span><span class="p">(</span><span class="n">time</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s2">&#34;%Y-%m-</span><span class="si">%d</span><span class="s2">-%H:%M:%S&#34;</span><span class="p">,</span> <span class="n">time</span><span class="o">.</span><span class="n">localtime</span><span class="p">()))</span>
+        <span class="n">branch</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">getBranchFromFileConfig</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">runCmd</span><span class="p">(</span><span class="s1">&#39;git add .&#39;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">runCmd</span><span class="p">(</span><span class="s1">&#39;git commit -m &#39;</span><span class="o">+</span><span class="n">text</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">runCmd</span><span class="p">(</span><span class="s1">&#39;git pull --rebase origin &#39;</span><span class="o">+</span><span class="n">branch</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">runCmd</span><span class="p">(</span><span class="s1">&#39;git push origin &#39;</span><span class="o">+</span><span class="n">branch</span><span class="p">)</span>
 
 </code></pre></td></tr></table>
 </div>
