@@ -10,21 +10,49 @@
   
   <url>
     <loc>https://zhanghao1github.github.io/categories/</loc>
-    <lastmod>2020-12-20T14:12:32+08:00</lastmod>
+    <lastmod>2020-12-20T15:24:03+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://zhanghao1github.github.io/post/</loc>
-    <lastmod>2020-12-20T14:12:32+08:00</lastmod>
+    <lastmod>2020-12-20T15:24:03+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhanghao1github.github.io/tags/shell/</loc>
+    <lastmod>2020-12-20T15:24:03+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhanghao1github.github.io/categories/shell/</loc>
+    <lastmod>2020-12-20T15:24:03+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhanghao1github.github.io/2020/12/shell%E6%B1%87%E6%80%BB/</loc>
+    <lastmod>2020-12-20T15:24:03+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://zhanghao1github.github.io/tags/</loc>
-    <lastmod>2020-12-20T14:12:32+08:00</lastmod>
+    <lastmod>2020-12-20T15:24:03+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhanghao1github.github.io/</loc>
+    <lastmod>2020-12-20T15:24:03+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -45,13 +73,6 @@
   
   <url>
     <loc>https://zhanghao1github.github.io/2020/12/termux%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
-    <lastmod>2020-12-20T14:12:32+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhanghao1github.github.io/</loc>
     <lastmod>2020-12-20T14:12:32+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
